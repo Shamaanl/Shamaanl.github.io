@@ -1,0 +1,162 @@
+nav{
+    height: 50px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    background-color: #C4C4C4;
+}
+nav>div>a{
+    margin: 0 15px;
+    height: 50px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+nav>div>h1{
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #515151;
+  text-align: center;  
+}
+.frame1{
+    width: 100%;
+    display: flex;
+    background-color: #515151;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    margin: 100px 185px;
+    float: left;
+}
+.text1{
+    width: 50%;
+    position: relative;
+    color: #EEEEEE;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+.frame2{
+    width: 100%;
+    display: flex;
+    background-color: #FFFFFF;
+}
+.text2{
+    margin-left: 35px;
+    width: 50%;
+    position: relative;
+    float: left;
+    color: #515151;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+.frame3{
+    width: 100%;
+    display: flex;
+    background-color: #EEEEEE;
+}
+.text3{
+    width: 50%;
+    position: relative;
+    color: #515151;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+.FI1{
+    float: left;
+    width: 275px;
+    height: 325px;
+}
+.FI2{ 
+    float: left;
+    width: 350px;
+    height: 225px;
+}
+.FI3{ 
+    float: left;
+    width: 300px;
+    height: 355px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    background-color: #515151;
+}
+.footext{
+    display: flex;
+    width: 1200px;
+    margin: 100px 185px;
+    float: left;
+}
+@media screen and (min-device-width: 320px) 
+  and (max-device-width: 480px){
+    .FI1{
+        margin-top: 35px;
+        width: 75%;
+    }
+    .FI2{
+        margin-bottom: 35px;
+        width: 100%;
+    }
+    .FI3{
+        margin-top: 35px;
+        width: 75%;
+    }
+      .text2{
+        margin-top: 35px;
+    }
+}   
+}
+@media screen and (max-device-width: 640px) {
+    .FI1{
+        margin-left: 35px;
+        width: 100%;
+    }
+    .FI2{
+        width: 100%;
+    }
+    .FI3{
+        margin-left: 35px;
+        width: 100%;
+    }
+    .text2{
+        margin-left: 35px;
+    }
+}
+@media screen and (max-device-width: 720px) {
+    .FI1{
+        margin-left: 35px;
+        width: 100%;
+    }
+    .FI2{
+        width: 100%;
+    }
+    .FI3{
+        margin-left: 35px;
+        width: 100%;
+    }
+    .text2{
+        margin-left: 35px;
+    }
+}
+@media screen and (max-device-width: 960px) {
+    .FI1{
+    }
+    .FI2{
+        width: 320px;
+    }
+    .FI3{
+    }
+    .text2{
+    }
+}
